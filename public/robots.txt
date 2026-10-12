@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin
+
+# Googlebot & Bingbot specific rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://ais-pre-4o5ak3fm5rjtt54gss2ezf-404612398802.europe-west2.run.app/sitemap.xml
